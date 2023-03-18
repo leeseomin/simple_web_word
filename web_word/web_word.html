@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple Web Word Processor</title>
+</head>
+<body>
+    <div class="toolbar">
+        <input type="file" id="fileInput" style="display: none;">
+        <button id="loadButton">Load</button>
+        <button id="saveButton">Save</button>
+        <button id="saveAsButton">Save As</button>
+        <span>Characters: <span id="charCount">0</span></span>
+    </div>
+    <div class="editor" id="editor" contenteditable="true"></div>
+    <script src="script.js"></script>
+</body>
+</html>

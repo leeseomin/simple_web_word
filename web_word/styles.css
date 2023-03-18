@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.toolbar {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.editor {
+    padding: 20px;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+    outline: none;
+}
